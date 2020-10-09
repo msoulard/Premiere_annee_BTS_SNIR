@@ -1,0 +1,32 @@
+.cadreHautGauche{
+    background-color: orange;
+    height: 50%;
+    width: 50%;
+    left : 0%;
+    top: 0%;
+    position: absolute;
+}
+.cadreHautDroit{
+    background-color: yellow;
+    width: 50%;
+    height: 50%;
+    right: 0%;
+    top: 0%;
+    position: absolute;
+}
+.cadreBasGauche{
+    background-color: blue;
+    height: 50%;
+    width: 50%;
+    left: 0%;
+    bottom: 0%;
+    position: absolute;
+}
+.cadreBasDroit{
+    background-color: pink;
+    height: 50%;
+    width: 50%;
+    right: 0%;
+    bottom: 0%;
+    position: absolute;
+}

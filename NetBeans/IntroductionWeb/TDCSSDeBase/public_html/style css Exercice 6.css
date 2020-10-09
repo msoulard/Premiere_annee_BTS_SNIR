@@ -1,0 +1,64 @@
+img:hover{
+    border: 2px red ridge;
+    z-index: 15 !important;
+}
+#Russie{
+    position: absolute;
+    left: 115px;
+    top: 54px;
+    z-index: 1;
+}
+#Japon{
+    position: absolute;
+    left: 139px;
+    top: 72px;
+    z-index: 2;
+}
+#USA{
+    position: absolute;
+    left: 148px;
+    top: 100px;
+    z-index: 3;
+}
+#France{
+    position: absolute;
+    left: 139px;
+    top: 128px;
+    z-index: 4;
+}
+#Chine{
+    position: absolute;
+    left: 115px;
+    top: 146px;
+    z-index: 5;
+}
+#CoreeduSud{
+    position: absolute;
+    left: 85px;
+    top: 146px;
+    z-index: 6;
+}
+#GrandeBretagne{
+    position: absolute;
+    left: 61px;
+    top: 128px;
+    z-index: 7;
+}
+#Allemagne{
+    position: absolute;
+    left: 52px;
+    top: 100px;
+    z-index: 8;
+}
+#Australie{
+    position: absolute;
+    left: 61px;
+    top: 72px;
+    z-index: 9;
+}
+#Italie{
+    position: absolute;
+    left: 85px;
+    top: 54px;
+    z-index: 10;
+}

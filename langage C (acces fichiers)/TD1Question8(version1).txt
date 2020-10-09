@@ -1,0 +1,30 @@
+nom : nom
+prénom : prenom
+âge : 20 ans
+poids : 50.00 kg
+sexe : f
+
+nom : nom
+prénom : prenom
+âge : 21 ans
+poids : 51.00 kg
+sexe : f
+
+nom : nom
+prénom : prenom
+âge : 22 ans
+poids : 52.00 kg
+sexe : f
+
+nom : nom
+prénom : prenom
+âge : 23 ans
+poids : 53.00 kg
+sexe : f
+
+nom : nom
+prénom : prenom
+âge : 24 ans
+poids : 54.00 kg
+sexe : f
+

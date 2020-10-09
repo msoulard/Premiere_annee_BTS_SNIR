@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Inscription</title>
+        <meta charset="UTF-8">
+        <link href="exercice1.css" rel="stylesheet" type="text/css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <fieldset class="formulaire">
+            <legend>Formulaire d'inscription</legend>
+            <table>
+                <tr>
+                    <td>
+                        <fieldset class="civilite">
+                            <legend>Civilité</legend>
+                            <label for="nom" id="label-nom" >Nom</label>
+                            <input type="text" name="nom" id="nom"/>
+                            <br/><br/>
+                            <label for="prenom" id="label-prenom">Prénom</label>
+                            <input type="text" name="prenom" id="prenom"/>
+                            <br/><br/>
+                            <label for="ville" id="label-ville">Ville</label>
+                            <select name="ville" id="ville">
+                                <option value="choix">Choisissez une ville</option>
+                                <option value="lemans">Le Mans</option>
+                                <option value="autre">Autre</option>
+                            </select>
+                            <br/><br/>
+                            <label for="email" id="label-email">Email</label>
+                            <input type="email" name="courriel" id="email"/>
+                            <br/><br/>
+                            <label for="site" id="label-site">Site</label>
+                            <input type="url" name="lienHttp" id="site"/>
+                            <br/><br/>     
+                            <div>Sexe</div>
+                            <input type="radio" name="sexe" id="masculin" value="1"/>
+                            <label for="masculin" id="label-masculin">Masculin</label>
+                            <br/>
+                            <input type="radio" name="sexe" id="feminin" value="2"/>
+                            <label for="feminin" id="label-feminin">Féminin</label>
+                            <br/>
+                            <input type="radio" name="sexe" id="inconnu" value="3"/>
+                            <label for="inconnu" id="label-inconnu">Je ne souhaite pas le dire</label>
+                            <br/><br/>
+                            <label for="photo" id="label-photo">Photo</label>
+                            <input type="file" name="photo" id="photo"/>
+                        </fieldset>
+                    </td>
+                    <td>
+                        <fieldset class="savoirs">
+                            <legend>Savoirs</legend>
+                            <table>
+                                <tr>
+                                    <td></td>
+                                    <td><label for="version" id="label-version">Version</label></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="exploitation" id="label-exploitation">Système d'exploitation</label>
+                                        <select name="exploitation" id="exploitation">
+                                            <option value="selection">Sélectionner un SE</option>
+                                            <option value="win">Windows</option>
+                                            <option value="lin">Linux</option>
+                                        </select>  
+                                    </td>
+                                    <td>
+                                        <select name="version" id="version">
+                                            <option value="choix"></option>
+                                            <option value="choix1">1</option>
+                                            <option value="choix2">2</option>
+                                            <option value="choix3">3</option>
+                                            <option value="choix4">4</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                            </table>
+                            <br/>
+                            <div>Langages de programmation</div>
+                            <input type="checkbox" name="langage" id="java" value="java"/>
+                            <label for="java" id="label-java">Java</label>
+                            <br/>
+                            <input type="checkbox" name="langage" id="c" value="c"/>
+                            <label for="c" id="label-c">C</label>
+                            <br/>
+                            <input type="checkbox" name="langage" id="php" value="php"/>
+                            <label for="php" id="label-php">PHP</label>
+                            <br/>
+                            <input type="checkbox" name="langage" id="autre" value="autre"/>
+                            <label for="autre" id="label-autre">Autre</label>
+                        </fieldset>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <fieldset class="connexion">
+                            <legend>Paramètres de connexion</legend>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <label for="login" id="label-login">Login</label>                                        
+                                    </td>
+                                    <td>
+                                        <input type="text" name="login" id="login"/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="mdp" id="label-mdp">Mot de passe</label>                                        
+                                    </td>
+                                    <td>
+                                        <input type="password" name="mdp" id="mdp"/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="confirmation" id="label-confirmation">Confirmation du mot de passe</label>                                        
+                                    </td>
+                                    <td>
+                                        <input type="password" name="confirmation" id="confirmation"/>
+                                    </td>
+                                </tr>
+                            </table>
+                        </fieldset>
+                    </td>
+                </tr>
+            </table>
+            <input type="submit" value="Inscription"/>
+            <input type="reset" value="Effacer les informations de ce formulaire"/>
+        </fieldset>
+
+    </body>
+</html>

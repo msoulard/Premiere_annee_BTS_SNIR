@@ -1,0 +1,77 @@
+body{
+    width: 980px;
+    height: 500px;
+}
+.cadreCivilite{
+    text-align: center;
+    display: block;
+}
+.nomPrenom{
+    font-size: 20px;
+    font-weight: bold;
+}
+.photo{
+    width: 100px;
+    height: 115px;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+.adresse, .detailDiplome{
+    font-style: italic;
+}
+.ageTel{
+  text-align: center;  
+}
+.courriel{
+    color: darkmagenta;
+}
+.typeStage{
+    font-weight: bold;
+}                
+.cadreFormation{
+    background-color: #D5D9D8;    
+}
+.titreRubrique{
+    margin-top: 10px;    
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: solid black 2px;
+    border-top: solid black 2px;
+}
+.diplome{
+    font-weight: bold;
+}
+.cadreExperience{
+    background-color: #BCC2C1;
+}         
+.anneeExperience{
+    font-weight: bold;
+}
+.posteExperience{
+    
+}
+.entrepriseExperience{
+    font-weight: bold;
+    font-style: italic;
+}
+.periodeExperience{
+    font-style: italic;
+}
+.descriptionExperience{
+    display: list-item;
+    margin-left: 30px;
+}          
+.cadreCompetences{
+    background-color: #9E9F9F;
+}
+.competence{
+    font-weight: bold;
+    display: list-item;
+    margin-left: 30px;
+}
+.detailCompetence{
+    font-weight: normal;
+}

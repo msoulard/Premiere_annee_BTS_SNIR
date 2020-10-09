@@ -1,0 +1,36 @@
+.boite1{
+    background-color: pink;
+    top: 0px;
+    left: 0px;
+    height: 300px;
+    width: 150px;
+    position: absolute;
+    z-index: 1;
+}
+.boite2{
+    background-color: orange;
+    top: 50px;
+    left: 50px;
+    height: 300px;
+    width: 150px;
+    position: absolute;
+    z-index: 2;
+}
+.boite3{
+    background-color: blue;
+    top: 100px;
+    left: 100px;
+    height: 300px;
+    width: 150px;
+    position: absolute;
+    z-index: 3;
+}
+.boite4{
+    background-color: green;
+    top: 150px;
+    left: 150px;
+    height: 300px;
+    width: 150px;
+    position: absolute;
+    z-index: 4;
+}

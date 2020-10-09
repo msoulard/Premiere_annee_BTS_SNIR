@@ -1,0 +1,128 @@
+div.survol:hover{
+    background-color: greenyellow;
+    margin-bottom: 10px;
+}
+div.clique:active{
+    background-color: red;
+    margin-bottom: 10px;
+}
+div.boiteArrondie{
+    border: 3px ridge green;
+    border-radius: 10px;
+    background-color: yellow;
+    text-align: center;
+    margin-bottom: 10px;
+}
+div.ombre{
+    width: 300px;
+    box-shadow: 10px 10px 20px 5px violet;
+    background-color: yellow;
+    text-align: center;
+    margin-bottom: 10px;
+}
+/*div.image{
+    margin-bottom: 10px;
+    border-image: url() 100 100 stretch;
+    border: 15px solid transparent;
+    text-align: center;
+    width: 300px;
+    position: absolute;
+}*/
+div.boiteLinear{
+    background: linear-gradient(to left, yellow, red);
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+div.boiteRadiale{
+    background: radial-gradient(100px, yellow, red);
+    width: 200px;
+    height: 200px;
+    margin-bottom: 11px;
+}
+div.pasrot{
+    background: lightgray;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 300px;
+    top: 300px;
+}
+div.rot{
+    background: blue;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 300px;
+    top: 300px;
+    transform: rotate(15deg);
+}
+div.pascal{
+    background: lightgray;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 500px;
+    top: 500px;
+}
+div.scal{
+    background: blue;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 500px;
+    top: 500px;
+    transform: scale(2, 0.5);
+}
+div.passkew{
+    background: lightgray;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 700px;
+    top: 700px;
+}
+div.avecskew{
+    background: blue;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 700px;
+    top: 700px;
+    transform: skew(-45deg, 15deg);
+}
+div.bouleanim{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background: red;
+    position: relative;
+    animation: bougevertical 4s linear 0s infinite alternate;
+}
+@keyframes bougevertical{
+    0% {background:red; left:0px; top:0px}
+    50% {background:violet; left:200px; top:00px}
+    100% {background:blue; left:400px; top:0px}
+}
+@media screen and (min-width:640px)
+{
+    div.bigCarre{
+        position: absolute;
+        top: 1000px;
+        left: 10px;
+        width: 620px;
+        background-color: yellowgreen;
+        height: 320px;
+    }
+}
+@media screen and (min-width:800px)
+{
+    div.bigCarre{
+        position: absolute;
+        top: 1000px;
+        left: 10px;
+        width: 780px;
+        background-color: blue;
+        height: 320px;
+    }
+}

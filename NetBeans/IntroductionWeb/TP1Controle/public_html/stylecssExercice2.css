@@ -1,0 +1,148 @@
+.titre{
+    text-align: center;
+    background-color: white;
+    margin-left: 40%;
+}
+.principal:hover{
+    background-color: white;
+    border : 1px solid black;
+    border-radius: 10px;
+}
+div:hover{
+    border: 3px solid red;
+}
+.module1{
+    background-image: url("cisco.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 400px 300px;
+    display: block;
+    border: solid 3px purple;
+    margin: 10px;
+    width: 30%;
+    height: 20%;
+    top: 0%;
+    left : 0%;
+    z-index: 1;
+    position: absolute;
+}
+.module2{
+    background-image: url("cisco.jpg");
+    display: block;
+    border: solid 3px purple;
+    margin: 10px;
+    width: 30%;
+    height: 20%;
+    top: 0%;
+    right: 33.5%;
+    z-index: 2;
+    position: absolute;
+}
+.module3{
+    background-image: url("cisco.jpg");
+    display: block;
+    border: solid 3px purple;
+    margin: 10px;
+    width: 30%;
+    height: 20%;
+    right: 0%;
+    top: 0%;
+    z-index: 3;
+    position: absolute;
+}
+.module4{
+    background-image: url("cisco.jpg");
+    display: block;
+    border: solid 3px purple;
+    margin: 10px;
+    width: 30%;
+    height: 20%;
+    left: 0%;
+    top: 25%;
+    z-index: 4;
+    position: absolute;
+}
+.module5{
+    background-image: url("cisco.jpg");
+    display: block;
+    border: solid 3px purple;
+    margin: 10px;
+    width: 30%;
+    height: 20%;
+    right : 33.5%;
+    top: 25%;
+    z-index: 5;
+    position: absolute;
+}
+.module6{
+    background-image: url("cisco.jpg");
+    display: block;
+    border: solid 3px purple;
+    margin: 10px;
+    width: 30%;
+    height: 20%;
+    right: 0%;
+    top: 25%;
+    z-index: 6;
+    position: absolute;
+}
+.module7{
+    background-image: url("cisco.jpg");
+    display: block;
+    border: solid 3px purple;
+    margin: 10px;
+    width: 30%;
+    height: 20%;
+    left : 0%;
+    top: 50%;
+    z-index: 7;
+    position: absolute;
+}
+.module8{
+    background-image: url("cisco.jpg");
+    display: block;
+    border: solid 3px purple;
+    margin: 10px;
+    width: 30%;
+    height: 20%;
+    right: 33.5%;
+    top: 50%;
+    z-index: 8;
+    position: absolute;
+}
+.module9{
+    background-image: url("cisco.jpg");
+    display: block;
+    border: solid 3px purple;
+    margin: 10px;
+    width: 30%;
+    height: 20%;
+    right: 0%;
+    top: 50%;
+    z-index: 9;
+    position: absolute;
+}
+.module10{
+    background-image: url("cisco.jpg");
+    display: block;
+    border: solid 3px purple;
+    margin: 10px;
+    width: 30%;
+    height: 20%;
+    left: 16.5%;
+    top: 75%;
+    z-index: 10;
+    position: absolute;
+}
+.module11{
+    background-image: url("cisco.jpg");
+    display: block;
+    border: solid 3px purple;
+    margin: 10px;
+    width: 30%;
+    height: 20%;
+    right : 16.5%;
+    top: 75%;
+    z-index: 11;
+    position: absolute;
+}

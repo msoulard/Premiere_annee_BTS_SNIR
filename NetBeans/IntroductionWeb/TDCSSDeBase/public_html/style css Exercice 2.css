@@ -1,0 +1,36 @@
+.titre{
+    border: 2px ridge #ff00ff; 
+    width: 30%;
+    background-color: #ffffc0;
+    text-align: center;
+    color: #0000ff;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cadre1{
+    border: 2px groove #0000ff;
+    width: 20%;
+    background-color: white;
+    text-align: center;
+    color: #800080;
+    font-weight: bold;
+}
+.texte1{
+    font-family: 'courier new';
+    margin-left: 5%;
+    position: relative;
+}
+.cadre2{
+    width: 20%;
+    background-color: #ffdca8;
+    text-align: center;
+    font-weight: bolder;
+    left: 5%;
+    position: relative;
+}
+.texte2{
+    font-family: 'times new roman';
+    left: 10%;
+    position: relative;
+}

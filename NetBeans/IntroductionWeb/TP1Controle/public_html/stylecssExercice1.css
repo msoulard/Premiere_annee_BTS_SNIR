@@ -1,0 +1,23 @@
+.italic{
+    font-style: italic;
+    margin-left: 50px;
+    text-align: justify;
+}
+table, td{
+    border: 1px solid blue;
+}
+.titre{
+    color: blue;
+    font-weight: bold;
+    text-align: center;
+}
+.langages{    
+    font-weight: bold;
+}
+.photo{
+    width: 65px;
+    height: 80px;
+    top: 10px;
+    left: 30%;
+    position: absolute;
+}
